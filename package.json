@@ -2,14 +2,14 @@
   "name": "portfolio-nextjs",
   "version": "0.1.0",
   "homepage": "https://martinswilliam.github.io/portfolio-nextjs/",
+  
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "predeploy": "mpm run build",
-    "deploy": "gh-pages -d dist"
+    "lint": "next lint"
+    
   },
   "dependencies": {
     "next": "14.1.0",
