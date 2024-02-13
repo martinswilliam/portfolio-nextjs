@@ -1,4 +1,5 @@
 import Image from "next/image";
+import React from "react";
 
 export default function Home() {
   return (
@@ -17,11 +18,60 @@ export default function Home() {
           >
 
             <Image
+              
               src="/Github.svg"
               alt="GitHub Image"
-              className="dark:invert"
-              width={60}
-              height={60}
+              className="dark:invert "
+              width={40}
+              height={40}
+              priority
+            />
+          </a>
+          <a
+            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
+            href="https://www.linkedin.com/in/william-gomes-martins-93127426a/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+
+            <Image
+              src="/Linkedin.svg"
+              alt="Linkedin Image"
+              className="ml-2"
+              width={40}
+              height={40}
+              priority
+            />
+          </a>
+          <a
+            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
+            href="https://www.linkedin.com/in/william-gomes-martins-93127426a/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+
+            <Image
+              src="/instagram.svg"
+              alt="Instagram Image"
+              className="ml-2"
+              width={40}
+              height={40}
+              priority
+            />
+          </a>
+          <a
+            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
+            href="https://www.linkedin.com/in/william-gomes-martins-93127426a/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+
+            <Image
+              src="/youtube.svg"
+              alt="GitHub Image"
+              className="ml-2"
+              width={40}
+              height={40}
               priority
             />
           </a>
