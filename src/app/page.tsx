@@ -11,7 +11,7 @@ export default function Home() {
         </p>
         <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
           <a
-            className="flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0 "
+            className="flex place-items-center gap-2 p-2 lg:pointer-events-auto lg:p-0 "
             href="https://github.com/martinswilliam"
             target="_blank"
             rel="noopener noreferrer"
@@ -21,21 +21,20 @@ export default function Home() {
               
               src="/Github.svg"
               alt="GitHub Image"
-              className="dark:invert "
               width={40}
               height={40}
               priority
             />
           </a>
           <a
-            className="flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
+            className="flex place-items-center gap-2 p-2 lg:pointer-events-auto lg:p-0"
             href="https://www.linkedin.com/in/william-gomes-martins-93127426a/"
             target="_blank"
             rel="noopener noreferrer"
           >
 
             <Image
-              src="/Linkedin.svg"
+              src="/linkedin_icon.svg"
               alt="Linkedin Image"
               className="ml-2"
               width={40}
@@ -44,14 +43,14 @@ export default function Home() {
             />
           </a>
           <a
-            className="flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
+            className="flex place-items-center gap-2 p-2 lg:pointer-events-auto lg:p-0"
             href="https://www.instagram.com/will._dev/"
             target="_blank"
             rel="noopener noreferrer"
           >
 
             <Image
-              src="/instagram.svg"
+              src="/instagram1.svg"
               alt="Instagram Image"
               className="ml-2"
               width={40}
@@ -60,7 +59,7 @@ export default function Home() {
             />
           </a>
           <a
-            className="flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
+            className="flex place-items-center gap-2 p-2 lg:pointer-events-auto lg:p-0"
             href="https://www.youtube.com/channel/UCD4DaEAmzHsJXqLlBr7mrpw"
             target="_blank"
             rel="noopener noreferrer"
@@ -68,7 +67,7 @@ export default function Home() {
 
             <Image
               src="/youtube.svg"
-              alt="GitHub Image"
+              alt="youtube Image"
               className="ml-2"
               width={40}
               height={40}
