@@ -9,10 +9,10 @@ export default function Home() {
         William Martins -&nbsp;
           <code className="font-mono font-bold"> Engenheiro de Software</code>
         </p>
-        <p className="flex justify-center">
+        <p className="flex justify-center lg:h-auto lg:w-auto">
 
            <Image
-           className=" flex m-2 place-items-center justify-center rounded-full lg:p-0 lg:h-auto lg:w-auto "   
+           className=" flex m-2 place-items-center justify-center rounded-full lg:p-0 "   
            src="/willphoto.svg"
            alt="GitHub Image"
            width={130}
