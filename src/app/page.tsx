@@ -12,7 +12,7 @@ export default function Home() {
         <p className="flex justify-center">
 
            <Image
-           className=" flex m-2 place-items-center justify-center rounded-full lg:p-0"   
+           className=" flex m-2 place-items-center justify-center rounded-full lg:p-0 lg:h-auto lg:w-auto "   
            src="/willphoto.svg"
            alt="GitHub Image"
            width={130}
