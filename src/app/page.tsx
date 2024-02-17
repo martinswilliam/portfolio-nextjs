@@ -12,8 +12,8 @@ export default function Home() {
         <p className="flex justify-center lg:h-auto lg:w-auto">
 
            <Image
-           className=" flex m-2  rounded-full "   
-           src="/willphoto.svg"
+           className=" flex m-2  rounded-full border-white "   
+           src="/teste.svg"
            alt="GitHub Image"
            width={130}
            height={130}
